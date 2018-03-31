@@ -1,0 +1,624 @@
+{
+  "configs": {
+    "size": [30, 32],
+    "maxZoom": 2,
+    "minZoom": 0.5,
+    "spacing": 75
+  },
+  "nodes": [
+    {
+      "id": 39,
+      "position": [9, 16.5]
+    },
+    {
+      "id": 49,
+      "position": [10, 8.5]
+    },
+    {
+      "id": 50,
+      "position": [14, 7]
+    },
+    {
+      "id": 52,
+      "position": [8, 30],
+    },
+    {
+      "id": 53,
+      "position": [7, 16.5],
+    },
+    {
+      "id": 54,
+      "position": [0, 17],
+    },
+    {
+      "id": 55,
+      "position": [23, 19],
+    },
+    {
+      "id": 56,
+      "position": [25, 30],
+    },
+    {
+      "id": 57,
+      "position": [20, 9],
+    },
+    {
+      "id": 58,
+      "position": [25, 10],
+    },
+    {
+      "id": 59,
+      "position": [32, 14],
+    },
+    {
+      "id": 60,
+      "position": [29, 30],
+    }
+  ],
+  "stations": [
+    {
+      "id": 48,
+      "position": [8, 13],
+      "name": "合肥西站",
+      "level": "major"
+    },
+    {
+      "id": 51,
+      "position": [15, 0],
+      "name": "合肥北城",
+      "level": "major"
+    },
+    {
+      "id": 1,
+      "name": "合肥火车站",
+      "position": [17.5, 8],
+      "level": "intercity"
+    },
+    {
+      "id": 2,
+      "name": "长淮",
+      "position": [17, 8.5]
+    },
+    {
+      "id": 3,
+      "name": "明光路",
+      "position": [16.5, 9]
+    },
+    {
+      "id": 4,
+      "name": "大东门",
+      "position": [16, 10],
+      "level": "major"
+    },
+    {
+      "id": 5,
+      "name": "包公园",
+      "position": [16, 11]
+    },
+    {
+      "id": 6,
+      "name": "合工大南区",
+      "position": [16, 12]
+    },
+    {
+      "id": 7,
+      "name": "朱岗",
+      "position": [16, 13]
+    },
+    {
+      "id": 8,
+      "name": "秋浦河路",
+      "position": [16, 14]
+    },
+    {
+      "id": 9,
+      "name": "葛大店",
+      "position": [16, 15]
+    },
+    {
+      "id": 10,
+      "name": "望湖城",
+      "position": [15.5, 16]
+    },
+    {
+      "id": 11,
+      "name": "合肥南站",
+      "position": [15, 17],
+      "level": "intercity"
+    },
+    {
+      "id": 12,
+      "name": "南站南广场",
+      "position": [15, 18]
+    },
+    {
+      "id": 13,
+      "name": "骆岗",
+      "position": [15, 19]
+    },
+    {
+      "id": 14,
+      "name": "高王",
+      "position": [15, 20]
+    },
+    {
+      "id": 15,
+      "name": "滨湖会展中心",
+      "position": [15, 21]
+    },
+    {
+      "id": 16,
+      "name": "紫庐",
+      "position": [15, 22]
+    },
+    {
+      "id": 17,
+      "name": "塘西河公园",
+      "position": [15, 23]
+    },
+    {
+      "id": 18,
+      "name": "金斗公园",
+      "position": [15, 24]
+    },
+    {
+      "id": 19,
+      "name": "云谷路",
+      "position": [15, 25]
+    },
+    {
+      "id": 20,
+      "name": "万达城",
+      "position": [15, 26]
+    },
+    {
+      "id": 21,
+      "name": "万年埠",
+      "position": [15, 27]
+    },
+    {
+      "id": 22,
+      "name": "丙子铺",
+      "position": [14, 28]
+    },
+    {
+      "id": 23,
+      "name": "九联圩",
+      "position": [13, 28]
+    },
+    {
+      "id": 24,
+      "name": "南岗",
+      "position": [1, 10]
+    },
+    {
+      "id": 25,
+      "name": "桂庄",
+      "position": [2, 10]
+    },
+    {
+      "id": 26,
+      "name": "汽车西站",
+      "position": [3, 10]
+    },
+    {
+      "id": 27,
+      "name": "振新路",
+      "position": [4, 10]
+    },
+    {
+      "id": 28,
+      "name": "蜀山西",
+      "position": [5, 10]
+    },
+    {
+      "id": 29,
+      "name": "大蜀山",
+      "position": [6, 10]
+    },
+    {
+      "id": 30,
+      "name": "天柱路",
+      "position": [7, 10]
+    },
+    {
+      "id": 31,
+      "name": "科学大道",
+      "position": [8, 10]
+    },
+    {
+      "id": 32,
+      "name": "十里庙",
+      "position": [9, 10]
+    },
+    {
+      "id": 33,
+      "name": "西七里塘",
+      "position": [10, 10]
+    },
+    {
+      "id": 34,
+      "name": "五里墩",
+      "position": [11, 10]
+    },
+    {
+      "id": 35,
+      "name": "三里庵",
+      "position": [12, 10]
+    },
+    {
+      "id": 36,
+      "name": "安农大",
+      "position": [13, 10]
+    },
+    {
+      "id": 37,
+      "name": "三孝口",
+      "position": [14, 10]
+    },
+    {
+      "id": 38,
+      "name": "四牌楼",
+      "position": [15, 10]
+    },
+    {
+      "id": 40,
+      "name": "三里街",
+      "position": [17, 10]
+    },
+    {
+      "id": 41,
+      "name": "东五里井",
+      "position": [18, 10]
+    },
+    {
+      "id": 42,
+      "name": "东七里",
+      "position": [19, 10]
+    },
+    {
+      "id": 43,
+      "name": "漕冲",
+      "position": [20, 10]
+    },
+    {
+      "id": 44,
+      "name": "东二十埠",
+      "position": [21, 10]
+    },
+    {
+      "id": 45,
+      "name": "龙岗",
+      "position": [22, 10]
+    },
+    {
+      "id": 46,
+      "name": "王岗",
+      "position": [23, 10]
+    },
+    {
+      "id": 47,
+      "name": "三十埠",
+      "position": [24, 10]
+    },
+  ],
+  "lines": [
+    {
+      "id": -1,
+      "name": "京福高铁",
+      "color": "000000",
+      "segments": [
+        {
+          "from": 56,
+          "to": 55,
+          "mode": "triangle",
+          "length": 5
+        },
+        {
+          "from": 55,
+          "to": 11,
+          "mode": "triangle",
+          "inverse": true,
+          "length": 5
+        },
+        {
+          "to": 39,
+          "mode": "triangle",
+          "length": 5
+        },
+        {
+          "to": 48,
+          "mode": "triangle",
+          "inverse": true,
+          "length": 5
+        },
+        {
+          "to": 49,
+          "mode": "triangle",
+          "length": 5
+        },
+        {
+          "to": 50,
+          "mode": "triangle",
+          "inverse": true,
+          "length": 5
+        },
+        {
+          "to": 51,
+          "mode": "triangle",
+          "inverse": true,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "宁西线",
+      "color": "AAAAAA",
+      "segments": [
+        {
+          "from": 59,
+          "to": 58,
+          "mode": "triangle",
+          "length": 5
+        },
+        {
+          "to": 57,
+          "mode": "triangle",
+          "inverse": true,
+          "length": 5
+        },
+        {
+          "to": 1,
+          "mode": "triangle",
+          "length": 5
+        },
+        {
+          "to": 50,
+          "mode": "triangle",
+          "inverse": true,
+          "length": 5
+        },
+        {
+          "to": 49,
+          "mode": "triangle",
+          "length": 5
+        },
+        {
+          "to": 48,
+          "mode": "triangle",
+          "inverse": true,
+          "length": 5
+        },
+        {
+          "to": 53,
+          "mode": "triangle",
+          "length": 5
+        },
+        {
+          "to": 54,
+          "mode": "triangle",
+          "inverse": true,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "id": -2,
+      "name": "合九铁路",
+      "color": "BBBBBB",
+      "segments": [
+        {
+          "from": 48,
+          "to": 52,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "id": -3,
+      "name": "淮南铁路",
+      "color": "CCCCCC",
+      "segments": [
+        {
+          "from": 51,
+          "to": 1,
+          "mode": "triangle",
+          "length": 5
+        },
+        {
+          "to": 57,
+          "mode": "triangle",
+          "inverse": true,
+          "length": 5
+        },
+        {
+          "to": 58,
+          "mode": "triangle",
+          "length": 5
+        },
+        {
+          "to": 60,
+          "mode": "triangle",
+          "inverse": true,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "id": -4,
+      "name": "沪汉蓉城际",
+      "color": "000000",
+      "segments": [
+        {
+          "from": 59,
+          "to": 11,
+          "mode": "parallel",
+          "length": 5
+        },
+        {
+          "to": 54,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "合肥地铁一号线",
+      "color": "FF0000",
+      "segments": [
+        {
+          "from": 1,
+          "to": 2
+        },
+        {
+          "to": 3
+        },
+        {
+          "to": 4,
+          "mode": "triangle",
+          "inverse": true
+        },
+        {
+          "to": 5
+        },
+        {
+          "to": 6
+        },
+        {
+          "to": 7
+        },
+        {
+          "to": 8
+        },
+        {
+          "to": 9
+        },
+        {
+          "to": 10,
+          "mode": "triangle"
+        },
+        {
+          "to": 11,
+          "mode": "triangle",
+          "inverse": true
+        },
+        {
+          "to": 12
+        },
+        {
+          "to": 13
+        },
+        {
+          "to": 14
+        },
+        {
+          "to": 15
+        },
+        {
+          "to": 16
+        },
+        {
+          "to": 17
+        },
+        {
+          "to": 18
+        },
+        {
+          "to": 19
+        },
+        {
+          "to": 20
+        },
+        {
+          "to": 21
+        },
+        {
+          "to": 22,
+          "mode": "square",
+          "inverse": true
+        },
+        {
+          "to": 23
+        },
+      ]
+    },
+    {
+      "id": 2,
+      "name": "合肥地铁二号线",
+      "color": "1751B6",
+      "segments": [
+        {
+          "from": 24,
+          "to": 25
+        },
+        {
+          "to": 26
+        },
+        {
+          "to": 27
+        },
+        {
+          "to": 28
+        },
+        {
+          "to": 29
+        },
+        {
+          "to": 30
+        },
+        {
+          "to": 31
+        },
+        {
+          "to": 32
+        },
+        {
+          "to": 33
+        },
+        {
+          "to": 34
+        },
+        {
+          "to": 35
+        },
+        {
+          "to": 36
+        },
+        {
+          "to": 37
+        },
+        {
+          "to": 38
+        },
+        {
+          "to": 4
+        },
+        {
+          "to": 40
+        },
+        {
+          "to": 41
+        },
+        {
+          "to": 42
+        },
+        {
+          "to": 43
+        },
+        {
+          "to": 44
+        },
+        {
+          "to": 45
+        },
+        {
+          "to": 46
+        },
+        {
+          "to": 47
+        },
+      ]
+    }
+  ]
+}

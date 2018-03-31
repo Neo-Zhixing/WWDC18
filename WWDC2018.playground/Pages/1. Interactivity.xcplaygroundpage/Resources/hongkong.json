@@ -1,0 +1,1029 @@
+{
+  "configs": {
+    "size": [30, 20],
+    "maxZoom": 2,
+    "minZoom": 0.5,
+    "spacing": 75
+  },
+  "backgrounds": [
+    {
+      "position": [0,0],
+      "image": "hongkong"
+    }
+  ],
+  "connections": [
+    {
+      "from": 23,
+      "to": 24
+    },
+    {
+      "from": 44,
+      "to": 81
+    },
+    {
+      "from": 96,
+      "to": 82,
+      "length": 5
+    },
+    {
+      "from": 96,
+      "to": 72,
+      "length": 5
+    }
+  ],
+  "nodes": [
+    {
+      "id": 56,
+      "position": [24.5, 12]
+    },
+    {
+      "id": 88,
+      "position": [11.5, 7]
+    },
+    {
+      "id": 89,
+      "position": [10.5, 5.5]
+    },
+    {
+      "id": 97,
+      "position": [10, 3]
+    },
+    {
+      "id": 98,
+      "position": [8, 0]
+    },
+  ],
+  "stations": [
+    {
+      "id": 1,
+      "name": "落马洲",
+      "position": [10, 1]
+    },
+    {
+      "id": 2,
+      "name": "罗湖",
+      "position": [13, 1]
+    },
+    {
+      "id": 3,
+      "name": "上水",
+      "level": "major",
+      "position": [13, 2]
+    },
+    {
+      "id": 4,
+      "name": "粉岭",
+      "position": [14, 2]
+    },
+    {
+      "id": 5,
+      "name": "太和",
+      "position": [15, 2]
+    },
+    {
+      "id": 6,
+      "name": "大埔墟",
+      "position": [16, 2]
+    },
+    {
+      "id": 7,
+      "name": "大学",
+      "position": [17, 2]
+    },
+    {
+      "id": 8,
+      "name": "火炭",
+      "position": [17.5, 2.5]
+    },
+    {
+      "id": 9,
+      "name": "马场",
+      "position": [18, 2.5]
+    },
+    {
+      "id": 10,
+      "name": "沙田",
+      "level": "major",
+      "position": [18, 3.5]
+    },
+    {
+      "id": 11,
+      "name": "大围",
+      "position": [18, 4.5],
+      "level": "interchange"
+    },
+    {
+      "id": 12,
+      "name": "九龙塘",
+      "position": [18, 5.5],
+      "level": "interchange"
+    },
+    {
+      "id": 13,
+      "name": "旺角东",
+      "position": [18, 8]
+    },
+    {
+      "id": 14,
+      "name": "红磡",
+      "position": [18, 11],
+      "level": "intercity"
+    },
+    {
+      "id": 15,
+      "name": "车公庙",
+      "position": [19, 4]
+    },
+    {
+      "id": 16,
+      "name": "沙田围",
+      "position": [19.5, 3]
+    },
+    {
+      "id": 17,
+      "name": "第一城",
+      "position": [20, 2]
+    },
+    {
+      "id": 18,
+      "name": "石门",
+      "position": [21, 2]
+    },
+    {
+      "id": 19,
+      "name": "大水坑",
+      "position": [22, 2]
+    },
+    {
+      "id": 20,
+      "name": "恒安",
+      "position": [23, 2]
+    },
+    {
+      "id": 21,
+      "name": "马鞍山",
+      "position": [24, 2]
+    },
+    {
+      "id": 22,
+      "name": "乌溪沙",
+      "position": [25, 2]
+    },
+    {
+      "id": 23,
+      "name": "尖东",
+      "position": [16.5, 11]
+    },
+    {
+      "id": 24,
+      "name": "尖沙咀",
+      "position": [16, 11.5]
+    },
+    {
+      "id": 25,
+      "name": "佐敦",
+      "position": [16, 10.5]
+    },
+    {
+      "id": 26,
+      "name": "油麻地",
+      "position": [16, 9.5]
+    },
+    {
+      "id": 27,
+      "name": "旺角",
+      "position": [16, 8.5]
+    },
+    {
+      "id": 28,
+      "name": "太子",
+      "position": [16, 7.5]
+    },
+    {
+      "id": 29,
+      "name": "石硖尾",
+      "position": [16.5, 6]
+    },
+    {
+      "id": 30,
+      "name": "乐富",
+      "position": [19, 5.5]
+    },
+    {
+      "id": 31,
+      "name": "黄大仙",
+      "position": [20, 5.5]
+    },
+    {
+      "id": 32,
+      "name": "钻石山",
+      "position": [21, 5.5]
+    },
+    {
+      "id": 33,
+      "name": "彩虹",
+      "position": [22, 5.5]
+    },
+    {
+      "id": 34,
+      "name": "九龙湾",
+      "position": [23, 6]
+    },
+    {
+      "id": 35,
+      "name": "牛头角",
+      "position": [24, 7.5]
+    },
+    {
+      "id": 36,
+      "name": "观塘",
+      "position": [24, 8.5]
+    },
+    {
+      "id": 37,
+      "name": "蓝田",
+      "position": [24, 9.5]
+    },
+    {
+      "id": 38,
+      "name": "油塘",
+      "position": [25, 10],
+      "level": "major"
+    },
+    {
+      "id": 39,
+      "name": "调景岭",
+      "position": [26, 10],
+      "level": "major"
+    },
+    {
+      "id": 40,
+      "name": "坚尼地城",
+      "position": [7.5, 14]
+    },
+    {
+      "id": 41,
+      "name": "香港大学",
+      "position": [9, 14]
+    },
+    {
+      "id": 42,
+      "name": "西营盘",
+      "position": [10.5, 14]
+    },
+    {
+      "id": 43,
+      "name": "上环",
+      "position": [12, 14]
+    },
+    {
+      "id": 44,
+      "name": "中环",
+      "position": [13.5, 14]
+    },
+    {
+      "id": 45,
+      "name": "金钟",
+      "position": [15, 14],
+      "level": "interchange"
+    },
+    {
+      "id": 46,
+      "name": "湾仔",
+      "position": [16.5, 14]
+    },
+    {
+      "id": 47,
+      "name": "铜锣湾",
+      "position": [18, 14]
+    },
+    {
+      "id": 48,
+      "name": "天后",
+      "position": [19.5, 14]
+    },
+    {
+      "id": 49,
+      "name": "炮台山",
+      "position": [21, 14]
+    },
+    {
+      "id": 50,
+      "name": "北角",
+      "position": [22.5, 14],
+      "level": "major"
+    },
+    {
+      "id": 51,
+      "name": "太古",
+      "position": [24, 14],
+      "level": "major"
+    },
+    {
+      "id": 52,
+      "name": "西湾河",
+      "position": [25.5, 14]
+    },
+    {
+      "id": 53,
+      "name": "筲箕灣",
+      "position": [26.5, 14.5]
+    },
+    {
+      "id": 54,
+      "name": "杏花屯",
+      "position": [27, 16]
+    },
+    {
+      "id": 55,
+      "name": "柴湾",
+      "position": [27, 17.5]
+    },
+    {
+      "id": 57,
+      "name": "将军澳",
+      "position": [27, 10]
+    },
+    {
+      "id": 58,
+      "name": "康城",
+      "position": [28, 11]
+    },
+    {
+      "id": 59,
+      "name": "坑口",
+      "position": [28, 9]
+    },
+    {
+      "id": 60,
+      "name": "宝琳",
+      "position": [28, 8]
+    },
+    {
+      "id": 61,
+      "name": "深水埗",
+      "position": [15.5, 6]
+    },
+    {
+      "id": 62,
+      "name": "何文田",
+      "position": [17, 10]
+    },
+    {
+      "id": 63,
+      "name": "黄埔",
+      "position": [19, 10.5]
+    },
+    {
+      "id": 64,
+      "name": "长沙湾",
+      "position": [14, 5.5]
+    },
+    {
+      "id": 65,
+      "name": "荔枝角",
+      "position": [13, 5.5]
+    },
+    {
+      "id": 66,
+      "name": "美孚",
+      "position": [11.5, 5.5],
+      "level": "interchange"
+    },
+    {
+      "id": 67,
+      "name": "荔景",
+      "position": [10.5, 5.5],
+      "level": "major"
+    },
+    {
+      "id": 68,
+      "name": "葵芳",
+      "position": [9, 5.5]
+    },
+    {
+      "id": 69,
+      "name": "葵兴",
+      "position": [8, 5.5]
+    },
+    {
+      "id": 70,
+      "name": "大窝口",
+      "position": [7, 5.5]
+    },
+    {
+      "id": 71,
+      "name": "荃湾",
+      "position": [6, 5.5]
+    },
+    {
+      "id": 72,
+      "name": "柯士甸",
+      "position": [13.5, 10]
+    },
+    {
+      "id": 73,
+      "name": "南昌",
+      "position": [11.5, 7],
+      "level": "major"
+    },
+    {
+      "id": 74,
+      "name": "荃湾西",
+      "position": [7, 4]
+    },
+    {
+      "id": 75,
+      "name": "锦上路",
+      "position": [6, 3]
+    },
+    {
+      "id": 76,
+      "name": "元朗",
+      "position": [6, 2]
+    },
+    {
+      "id": 77,
+      "name": "郎屏",
+      "position": [5.5, 1]
+    },
+    {
+      "id": 78,
+      "name": "天水围",
+      "position": [4.5, 1]
+    },
+    {
+      "id": 79,
+      "name": "兆康",
+      "position": [4, 2]
+    },
+    {
+      "id": 80,
+      "name": "屯门",
+      "position": [4, 3]
+    },
+    {
+      "id": 81,
+      "name": "香港",
+      "position": [13.5, 13],
+      "level": "major"
+    },
+    {
+      "id": 82,
+      "name": "九龙",
+      "position": [11.5, 10],
+      "level": "major"
+    },
+    {
+      "id": 83,
+      "name": "奥运",
+      "position": [11.5, 8.5]
+    },
+    {
+      "id": 84,
+      "name": "青衣",
+      "position": [8, 7.5],
+      "level": "major"
+    },
+    {
+      "id": 85,
+      "name": "欣澳",
+      "position": [6, 9.5],
+      "level": "major"
+    },
+    {
+      "id": 86,
+      "name": "东涌",
+      "position": [4, 11.5],
+      "level": "major"
+    },
+    {
+      "id": 87,
+      "name": "机场",
+      "position": [4, 10],
+      "level": "major"
+    },
+    {
+      "id": 90,
+      "name": "博览馆",
+      "position": [3.5, 9]
+    },
+    {
+      "id": 91,
+      "name": "迪士尼",
+      "position": [7, 11],
+      "level": "major"
+    },
+    {
+      "id": 92,
+      "name": "海洋公园",
+      "position": [16, 15.5]
+    },
+    {
+      "id": 93,
+      "name": "黄竹坑",
+      "position": [15, 16]
+    },
+    {
+      "id": 94,
+      "name": "利东",
+      "position": [12, 17]
+    },
+    {
+      "id": 95,
+      "name": "海怡半岛",
+      "position": [10, 17]
+    },
+    {
+      "id": 96,
+      "name": "西九龙",
+      "position": [12.5, 10],
+      "level": "intercity"
+    }
+  ],
+  "lines": [
+    {
+      "id": 12,
+      "name": "广深港高铁",
+      "color": "333333",
+      "segments": [
+        {
+          "from": 96,
+          "to": 97,
+          "mode": "square",
+          "inverse": true
+        },
+        {
+          "to": 98,
+          "mode": "square"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "南港岛线",
+      "color": "9DD700",
+      "segments": [
+        {
+          "from": 45,
+          "to": 92,
+          "mode": "triangle",
+          "inverse": true
+        },
+        {
+          "to": 93,
+          "mode": "square",
+          "inverse": true
+        },
+        {
+          "to": 94,
+          "mode": "parallel"
+        },
+        {
+          "to": 95
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "迪士尼线",
+      "color": "FC52A2",
+      "segments": [
+        {
+          "from": 85,
+          "to": 91,
+          "mode": "triangle"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "机场线",
+      "color": "008C90",
+      "segments": [
+        {
+          "from": 81,
+          "to": 82,
+          "mode": "square"
+        },
+        {
+          "to": 88
+        },
+        {
+          "to": 89,
+          "mode": "triangle"
+        },
+        {
+          "to": 84,
+          "mode": "triangle"
+        },
+        {
+          "to": 87,
+          "mode": "triangle",
+          "inverse": true
+        },
+        {
+          "to": 90,
+          "mode": "triangle",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "东涌线",
+      "color": "FE9300",
+      "segments": [
+        {
+          "from": 81,
+          "to": 82,
+          "mode": "square"
+        },
+        {
+          "to": 83
+        },
+        {
+          "to": 73
+        },
+        {
+          "to": 67,
+          "mode": "triangle"
+        },
+        {
+          "to": 84,
+          "mode": "triangle"
+        },
+        {
+          "to": 85
+        },
+        {
+          "to": 86
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "西铁线",
+      "color": "B50081",
+      "segments": [
+        {
+          "from": 14,
+          "to": 23
+        },
+        {
+          "to": 72,
+          "mode": "square"
+        },
+        {
+          "to": 73,
+          "mode": "parallel"
+        },
+        {
+          "to": 66
+        },
+        {
+          "to": 74,
+          "mode": "square",
+          "inverse": true
+        },
+        {
+          "to": 75,
+          "mode": "square"
+        },
+        {
+          "to": 76
+        },
+        {
+          "to": 77,
+          "mode": "square",
+          "inverse": true
+        },
+        {
+          "to": 78
+        },
+        {
+          "to": 79,
+          "mode": "square"
+        },
+        {
+          "to": 80
+        }
+
+      ]
+    },
+    {
+      "id": 7,
+      "name": "荃湾线",
+      "color": "F90000",
+      "segments": [
+        {
+          "from": 44,
+          "to": 45
+        },
+        {
+          "to": 24,
+          "mode": "square"
+        },
+        {
+          "to": 25
+        },
+        {
+          "to": 26
+        },
+        {
+          "to": 27
+        },
+        {
+          "to": 28
+        },
+        {
+          "to": 61,
+          "mode": "triangle"
+        },
+        {
+          "to": 64,
+          "mode": "triangle",
+          "inverse": true
+        },
+        {
+          "to": 65
+        },
+        {
+          "to": 66
+        },
+        {
+          "to": 67
+        },
+        {
+          "to": 68
+        },
+        {
+          "to": 69
+        },
+        {
+          "to": 70
+        },
+        {
+          "to": 71
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "将军澳线",
+      "color": "8A1D94",
+      "segments": [
+        {
+          "from": 50,
+          "to": 51
+        },
+        {
+          "to": 56,
+          "mode": "square"
+        },
+        {
+          "to": 38,
+          "mode": "square",
+          "inverse": true
+        },
+        {
+          "to": 39
+        },
+        {
+          "to": 57
+        },
+        {
+          "to": 58,
+          "mode": "square"
+        },
+        {
+          "from": 57,
+          "to": 59,
+          "mode": "square"
+        },
+        {
+          "to": 60
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "港岛线",
+      "color": "0070C5",
+      "segments": [
+        {
+          "from": 40,
+          "to": 41
+        },
+        {
+          "to": 42
+        },
+        {
+          "to": 43
+        },
+        {
+          "to": 44
+        },
+        {
+          "to": 45
+        },
+        {
+          "to": 46
+        },
+        {
+          "to": 47
+        },
+        {
+          "to": 48
+        },
+        {
+          "to": 49
+        },
+        {
+          "to": 50
+        },
+        {
+          "to": 51
+        },
+        {
+          "to": 52
+        },
+        {
+          "to": 53,
+          "mode": "triangle"
+        },
+        {
+          "to": 54,
+          "mode": "triangle",
+          "inverse": true
+        },
+        {
+          "to": 55
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "观塘线",
+      "color": "00AA41",
+      "segments": [
+        {
+          "from": 63,
+          "to": 62,
+          "mode": "triangle",
+          "inverse": true
+        },
+        {
+          "to": 26,
+          "mode": "square"
+
+        },
+        {
+          "to": 27
+        },
+        {
+          "to": 28
+        },
+        {
+          "to": 29,
+          "mode": "triangle"
+        },
+        {
+          "to": 12,
+          "mode": "triangle",
+          "inverse": true
+        },
+        {
+          "to": 30
+        },
+        {
+          "to": 31
+        },
+        {
+          "to": 32
+        },
+        {
+          "to": 33
+        },
+        {
+          "to": 34,
+          "mode": "triangle"
+        },
+        {
+          "to": 35,
+          "mode": "triangle",
+          "inverse": true
+        },
+        {
+          "to": 36
+        },
+        {
+          "to": 37
+        },
+        {
+          "to": 38,
+          "mode": "square",
+          "inverse": true
+        },
+        {
+          "to": 39
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "马鞍山线",
+      "color": "A80F00",
+      "segments": [
+        {
+          "from": 11,
+          "to": 15,
+          "mode": "triangle"
+        },
+        {
+          "to": 16,
+          "mode": "triangle",
+          "inverse": true
+        },
+        {
+          "to": 17,
+          "mode": "square",
+          "inverse": true
+        },
+        {
+          "to": 18
+        },
+        {
+          "to": 19
+        },
+        {
+          "to": 20
+        },
+        {
+          "to": 21
+        },
+        {
+          "to": 22
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "东铁线",
+      "color": "45B7EB",
+      "segments": [
+        {
+          "from": 2,
+          "to": 3
+        },
+        {
+          "from": 1,
+          "to": 3,
+          "mode": "parallel"
+        },
+        {
+          "to": 4
+        },
+        {
+          "to": 5
+        },
+        {
+          "to": 6
+        },
+        {
+          "to": 7
+        },
+        {
+          "to": 8,
+          "mode": "square"
+        },
+        {
+          "to": 10,
+          "mode": "triangle"
+        },
+        {
+          "from": 7,
+          "to": 9,
+          "mode": "square",
+          "length": 10
+        },
+        {
+          "to": 10,
+          "length": 10
+        },
+        {
+          "to": 11
+        },
+        {
+          "to": 12
+        },
+        {
+          "to": 13
+        },
+        {
+          "to": 14
+        }
+      ]
+    }
+  ]
+}

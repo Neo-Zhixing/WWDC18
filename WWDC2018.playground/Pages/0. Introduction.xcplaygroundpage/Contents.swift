@@ -2,6 +2,11 @@
  ### WWDC 2018 Scholarship Submission
  # TrainK Metro Map
  ## A universal interactive metro map viewer
+ 
+ [Main Repo](https://github.com/Neotoxin4365/TrainK-iOS)
+    |
+ [Playground Repo](https://github.com/Neotoxin4365/WWDC18)
+ 
  ---
  
  I love trains and metros.
@@ -19,9 +24,10 @@
 import UIKit
 import PlaygroundSupport
 /*:
- An important step: we're importing the codes from my MetroMap Framework. I'm writing the majority of my codes in an iOS App Framework mainly because of its
+ An important step: we're importing the codes from my custom Framework. I'm writing the majority of my codes in an iOS App Framework mainly because
  - Reusability in a real project beyond WWDC
  - Easier intergration with third-party frameworks
+ - I never got Swift playground running smoothly as claimed on my 2013 MacBook Air. Xcode crashes from time to time, weird errors occurs every day. Debugging is just way simpler on a real iPad.
  */
 import MetroMap
 /*:
@@ -35,19 +41,25 @@ import SwiftSVG
 import SwiftyJSON
 /*:
  We just imported two third-party open-source frameworks:
- - SwiftSVG: A SVG image parser to load the background image.
- - SwiftyJSON: A JSON parsing framework for easier and swiftier JSON manipulations.
+ - SwiftSVG: A SVG vector image parser which converts stantard SVG files into CAShapeLayers.
+ - SwiftyJSON: A JSON parser for easier and swiftier JSON manipulations.
 */
+let url = Bundle.main.url(forResource: "hefei", withExtension: "json")!
+let data = try! Data(contentsOf: url)
+let string = String(data: data, encoding: String.Encoding.utf8)
+let map = MetroMap(data: data)
 
-let map = MetroMap()
-let station = Station(id: 0)
-map.stations.insert(station)
+let mapViewController = MetroMapScrollableViewController()
+mapViewController.metroMap = map
 
-let mapView = MetroMapView()
-mapView.datasource = map
-mapView.reload()
-mapView
-// Present the view controller in the Live View window
-PlaygroundPage.current.liveView = mapView
+PlaygroundPage.current.liveView = mapViewController
+mapViewController.reload()
+mapViewController.zoomToFit()
 
-//: [Next](@next)
+/*:
+ So there you have it, the metro map of my hometown Hefei. We just loaded a JSON file and feeded it to our view controller; then, it magically converts these position informations into a real metro map. Use the Control button on your keyboard to simulate a pinch gesture, zoom in, and observe how the labels reveals themselves at the right position.
+ 
+ Now, go to the next page and explore the full potential of my metro map viewer.
+
+ [Next](@next)
+ */
