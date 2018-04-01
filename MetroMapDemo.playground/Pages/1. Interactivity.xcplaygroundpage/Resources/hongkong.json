@@ -542,7 +542,7 @@
   "lines": [
     {
       "id": 12,
-      "name": "广深港高铁",
+      "name": "Highspeed Rails",
       "color": "333333",
       "segments": [
         {
@@ -559,7 +559,7 @@
     },
     {
       "id": 11,
-      "name": "南港岛线",
+      "name": "South Island",
       "color": "9DD700",
       "segments": [
         {
@@ -584,7 +584,7 @@
     },
     {
       "id": 10,
-      "name": "迪士尼线",
+      "name": "Disneyland",
       "color": "FC52A2",
       "segments": [
         {
@@ -596,7 +596,7 @@
     },
     {
       "id": 9,
-      "name": "机场线",
+      "name": "Airport Express",
       "color": "008C90",
       "segments": [
         {
@@ -632,7 +632,7 @@
     },
     {
       "id": 8,
-      "name": "东涌线",
+      "name": "Tung Chung Line",
       "color": "FE9300",
       "segments": [
         {
@@ -664,7 +664,7 @@
     },
     {
       "id": 3,
-      "name": "西铁线",
+      "name": "West Rails",
       "color": "B50081",
       "segments": [
         {
@@ -716,7 +716,7 @@
     },
     {
       "id": 7,
-      "name": "荃湾线",
+      "name": "Tsuen Wan Line",
       "color": "F90000",
       "segments": [
         {
@@ -773,7 +773,7 @@
     },
     {
       "id": 6,
-      "name": "将军澳线",
+      "name": "Tseung Kwan O Line",
       "color": "8A1D94",
       "segments": [
         {
@@ -811,7 +811,7 @@
     },
     {
       "id": 5,
-      "name": "港岛线",
+      "name": "Island Line",
       "color": "0070C5",
       "segments": [
         {
@@ -867,7 +867,7 @@
     },
     {
       "id": 4,
-      "name": "观塘线",
+      "name": "Kwun Tong",
       "color": "00AA41",
       "segments": [
         {
@@ -935,7 +935,7 @@
     },
     {
       "id": 2,
-      "name": "马鞍山线",
+      "name": "Ma On Shan Line",
       "color": "A80F00",
       "segments": [
         {
@@ -972,7 +972,7 @@
     },
     {
       "id": 1,
-      "name": "东铁线",
+      "name": "East Rails",
       "color": "45B7EB",
       "segments": [
         {

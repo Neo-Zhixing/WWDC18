@@ -1,11 +1,13 @@
 /*:
  [Previous](@previous)   [Next](@next)
  
- # 2. Interactivity
+ # 1. Interactivity
  
- Breaking down the metro map to some basic components, e.g. Stations, Nodes and Line Segments, we can manipulate their behavious at runtime effortlessly. Here's a demonstration based on the current Hong Kong MTR System Map.
+ Breaking down the metro map to some basic components, e.g. Stations, Nodes and Line Segments, we can manipulate their behaviors at runtime with ease. Here's a demonstration based on the current Hong Kong MTR System Map.
  
  *The Live View might be too wide for your monitor. Adjust the split view width to accommodate the entire view.*
+ 
+ Note: Use Control button on your keyboard to simulate a pinch gesture. **The labels of minor stations reveal only when you zoom close enough.**
  
  - Click on the station icons. It will display a popover right next to it.
  
@@ -17,6 +19,7 @@
  
  The background is a static SVG image.
  
+ *I didn't translate the station names because the translation doesn't make sense for you whatsoever. Just ignore these Chinese.*
  */
 import UIKit
 import MetroMap
@@ -41,6 +44,6 @@ mapViewController.zoomToFit()
 
 let searchBar = mapViewController.navigationItem.searchController?.searchBar
 
-//: Note that due to some bugs in the Xcode playground simulator, the keyboard can't be shown completely. I pre-setted some text in the search bar so that you don't have to type in these characters yourself. Some alternative texts to choose from: "九龙" "北角" "金钟"
+//: Due to some bugs in the Xcode playground simulator, the keyboard can't be shown completely. I pre-setted some text in the search bar so that you don't have to type in these characters yourself. Some alternative texts to choose from: "九龙" "北角" "金钟"
 searchBar?.text = "旺角"
 
