@@ -14,11 +14,13 @@
   "connections": [
     {
       "from": 23,
-      "to": 24
+      "to": 24,
+      "length": 10,
     },
     {
       "from": 44,
-      "to": 81
+      "to": 81,
+      "length": 5
     },
     {
       "from": 96,
@@ -35,14 +37,6 @@
     {
       "id": 56,
       "position": [24.5, 12]
-    },
-    {
-      "id": 88,
-      "position": [11.5, 7]
-    },
-    {
-      "id": 89,
-      "position": [10.5, 5.5]
     },
     {
       "id": 97,
@@ -110,13 +104,13 @@
       "id": 11,
       "name": "大围",
       "position": [18, 4.5],
-      "level": "interchange"
+      "level": "major"
     },
     {
       "id": 12,
       "name": "九龙塘",
       "position": [18, 5.5],
-      "level": "interchange"
+      "level": "major"
     },
     {
       "id": 13,
@@ -187,17 +181,20 @@
     {
       "id": 26,
       "name": "油麻地",
-      "position": [16, 9.5]
+      "position": [16, 9.5],
+      "level": "major"
     },
     {
       "id": 27,
       "name": "旺角",
-      "position": [16, 8.5]
+      "position": [16, 8.5],
+      "level": "major"
     },
     {
       "id": 28,
       "name": "太子",
-      "position": [16, 7.5]
+      "position": [16, 7.5],
+      "level": "major"
     },
     {
       "id": 29,
@@ -279,7 +276,8 @@
     {
       "id": 44,
       "name": "中环",
-      "position": [13.5, 14]
+      "position": [13.5, 14],
+      "level": "major"
     },
     {
       "id": 45,
@@ -388,7 +386,7 @@
       "id": 66,
       "name": "美孚",
       "position": [11.5, 5.5],
-      "level": "interchange"
+      "level": "major"
     },
     {
       "id": 67,
@@ -607,15 +605,18 @@
           "mode": "square"
         },
         {
-          "to": 88
+          "to": 73
         },
         {
-          "to": 89,
+          "to": 67,
           "mode": "triangle"
         },
         {
           "to": 84,
           "mode": "triangle"
+        },
+        {
+          "to": 85,
         },
         {
           "to": 87,
@@ -672,11 +673,13 @@
         },
         {
           "to": 72,
-          "mode": "square"
+          "mode": "square",
+          "length": 2
         },
         {
           "to": 73,
-          "mode": "parallel"
+          "mode": "parallel",
+          "length": 3
         },
         {
           "to": 66
@@ -1018,10 +1021,12 @@
           "to": 12
         },
         {
-          "to": 13
+          "to": 13,
+          "length": 3
         },
         {
-          "to": 14
+          "to": 14,
+          "length": 3
         }
       ]
     }

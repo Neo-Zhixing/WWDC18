@@ -1,9 +1,9 @@
 /*:
  [Previous](@previous)   [Next](@next)
  
- # 1. Basics
+ # 2. Basics
  
- This playground page gives you a straightforward demonstration about how the map layout system works. In order to display a metro line, we have to break it down to the smallest units - segments and stations. Now what you're seeing in the live view are the four station types and five segment drawing modes the MetroMapView supports.
+ This playground page gives you a straightforward demonstration about how the layout system works. In order to display a metro line, we have to break it down to the smallest units - segments and stations. What you're seeing in the live view are the four station types and five segment drawing modes the MetroMapView supports.
  
  Feel free to **drag the stations around** in the live view and observe how the lines redraw itself according to the positions of the stations. Notice that the labels will automatically adjust its position to avoid overlapping with the lines.
  
